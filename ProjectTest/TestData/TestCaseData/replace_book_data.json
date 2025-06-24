@@ -1,0 +1,50 @@
+{
+    "ReplaceBook_Success": {
+        "oldBookKey": "book_1",
+        "newBookKey": "book_2",
+        "ownerAccKey": "replaceBook_account",
+        "loginAccKey": "replaceBook_account"
+    },
+    "ReplaceBook_NotOwn_Old": {
+        "oldBookKey": "book_1",
+        "newBookKey": "book_2",
+        "ownerAccKey": "replaceBook_account",
+        "loginAccKey": "replaceBook_account"
+    },
+    "ReplaceBook_NotFound_Old": {
+        "oldBookKey": "",
+        "newBookKey": "book_2",
+        "ownerAccKey": "replaceBook_account",
+        "loginAccKey": "replaceBook_account"
+    },
+    "ReplaceBook_Duplicate_New": {
+        "oldBookKey": "book_1",
+        "newBookKey": "book_2",
+        "ownerAccKey": "replaceBook_account",
+        "loginAccKey": "replaceBook_account"
+    },
+    "ReplaceBook_NotFound_New": {
+        "oldBookKey": "book_1",
+        "newBookKey": "",
+        "ownerAccKey": "replaceBook_account",
+        "loginAccKey": "replaceBook_account"
+    },
+    "ReplaceBook_NotFoundUser": {
+        "oldBookKey": "book_1",
+        "newBookKey": "book_2",
+        "ownerAccKey": "",
+        "loginAccKey": "replaceBook_account"
+    },
+    "ReplaceBook_DifferentUser": {
+        "oldBookKey": "book_1",
+        "newBookKey": "book_2",
+        "ownerAccKey": "addBook_account",
+        "loginAccKey": "replaceBook_account"
+    },
+    "ReplaceBook_NoAuthentication": {
+        "oldBookKey": "book_1",
+        "newBookKey": "book_2",
+        "ownerAccKey": "replaceBook_account",
+        "loginAccKey": ""
+    }
+}

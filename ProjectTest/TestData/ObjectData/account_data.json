@@ -1,0 +1,22 @@
+{
+    "getDetail_account":{
+        "username":"Salmon1!",
+        "password":"Salmon1!",
+        "userId": "7839e097-3309-49a7-b854-b13cf9bce72b"   
+    },
+    "addBook_account":{
+        "username":"Salmon1705@",
+        "password":"Salmon1705@",
+        "userId": "db8771b6-01b0-4496-8ffc-2255d63d1254"
+    },
+    "deleteBook_account":{
+        "username":"Salmon1705!",
+        "password":"Salmon1705!",
+        "userId": "91b1fffe-8633-4be8-a037-d83ba9e1b221"   
+    },
+    "replaceBook_account":{
+        "username":"Salmon1@",
+        "password":"Salmon1@",
+        "userId": "4038d004-9740-412a-91ac-2058987b5197"   
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "GetAccDetail_Success": {
+        "accWithUserIdKey": "getDetail_account",
+        "loginAccKey": "getDetail_account",
+        "bookKeys": [
+            "book_1",
+            "book_2"
+        ]
+    },
+    "GetAccDetail_NotFoundAccount": {
+        "accWithUserIdKey": "",
+        "loginAccKey": "getDetail_account",
+        "bookKeys": []
+    },
+    "GetAccDetail_DifferentAccount": {
+        "accWithUserIdKey": "addBook_account",
+        "loginAccKey": "getDetail_account",
+        "bookKeys": []
+    },
+    "GetAccDetail_NoAuthen": {
+        "accWithUserIdKey": "getDetail_account",
+        "loginAccKey": "",
+        "bookKeys": []
+    }
+}

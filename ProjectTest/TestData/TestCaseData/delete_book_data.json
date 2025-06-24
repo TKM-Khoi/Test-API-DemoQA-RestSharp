@@ -1,0 +1,32 @@
+{
+    "DeleteBook_Success": {
+        "bookKey":"book_1",
+        "ownerAccKey": "deleteBook_account",
+        "loginAccKey": "deleteBook_account"
+    },
+     "DeleteBook_NotOwnBook": {
+        "bookKey":"book_1",
+        "ownerAccKey": "deleteBook_account",
+        "loginAccKey": "deleteBook_account"
+    },
+    "DeleteBook_NotFoundBook": {
+        "bookKey":"",
+        "ownerAccKey": "deleteBook_account",
+        "loginAccKey": "deleteBook_account"
+    },
+    "DeleteBook_NotFoundUser": {
+        "bookKey":"book_1",
+        "ownerAccKey": "",
+        "loginAccKey": "deleteBook_account"
+    },
+    "DeleteBook_DifferentUser": {
+        "bookKey":"book_1",
+        "ownerAccKey": "addBook_account",
+        "loginAccKey": "deleteBook_account"
+    },
+    "DeleteBook_NoAuthentication": {
+        "bookKey":"book_1",
+        "ownerAccKey": "deleteBook_account",
+        "loginAccKey": ""
+    }
+}

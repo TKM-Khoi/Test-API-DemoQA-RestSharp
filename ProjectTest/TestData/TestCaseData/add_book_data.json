@@ -1,0 +1,33 @@
+{
+  "AddBook_Success": {
+    "bookKey": "book_1",
+    "ownerAccKey": "addBook_account",
+    "loginAccKey": "addBook_account"
+  },
+  "AddBook_Duplicate": {
+    "bookKey": "book_1",
+    "ownerAccKey": "addBook_account",
+    "loginAccKey": "addBook_account"
+  },
+  "AddBook_NotFoundBook": {
+    "bookKey": "",
+    "ownerAccKey": "addBook_account",
+    "loginAccKey": "addBook_account"
+  },
+  "AddBook_NotFoundUser": {
+    "isbn": "9781449325862",
+    "bookKey": "book_1",
+    "ownerAccKey": "",
+    "loginAccKey": "addBook_account"
+  },
+  "AddBook_DifferentUser": {
+    "bookKey": "book_1",
+    "ownerAccKey": "deleteBook_account",
+    "loginAccKey": "addBook_account"
+  },
+  "AddBook_NoAuthentication": {
+    "bookKey": "book_1",
+    "ownerAccKey": "addBook_account",
+    "loginAccKey": ""
+  }
+}
